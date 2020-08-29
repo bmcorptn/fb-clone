@@ -1,0 +1,24 @@
+.loginPage {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+.loginPage > div > img {
+  object-fit: contain;
+  height: 150px;
+}
+.loginPage__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center center;
+}
+.loginPage > button {
+  width: 300px;
+  background-color: #2e81f4;
+  color: #eff2f5;
+  font-weight: 800;
+}
+.loginPage > button:hover {
+  background-color: white;
+  color: #2e81f4;
+}
